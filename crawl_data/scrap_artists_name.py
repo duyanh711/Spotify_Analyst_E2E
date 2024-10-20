@@ -5,7 +5,7 @@ import os
 URL = "https://kworb.net/spotify/artists.html"
 
 # Define path to store list of artists name
-FILE_PATH = "data/artists_names.txt"
+FILE_PATH = "data/artists_name.txt"
 
 class ScrapArtistName:
     def get_artists_name(self, url: str):
@@ -29,12 +29,9 @@ class ScrapArtistName:
         return artists_name
 
 
+    @staticmethod
     def load_to_file(artists_name, file_name=FILE_PATH):
-        """_summary_
-
-        Args:
-            artists_name (list): List of artists name
-        """
+        """Save artist names to a file"""
         os.makedirs(os.path.dirname(file_name), exist_ok=True)
 
         try:
@@ -47,9 +44,9 @@ class ScrapArtistName:
             print(f"Error while storing artists: {e}")
 
 
-    def artists_crawler(self, path=FILE_PATH):
+    def artists_crawler(self):
         """_summary_:
         Main function
         """
         artists_name = self.get_artists_name(URL)
-        self.load_to_file(artists_name, path)
+        self.load_to_file(artists_name = artists_name)

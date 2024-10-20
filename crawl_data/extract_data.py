@@ -29,8 +29,7 @@ def spotify_crawler(artists_name, start_index=0, end_index=20):
                 artists_name[start_index:end_index])
         except RuntimeError:
             raise Exception("Max retry attempts reached!")
-        
-    print(final_albums_information, final_tracks_information, final_tracks_features_information)
+    return final_artists_information, final_albums_information, final_tracks_information, final_tracks_features_information
 
 
 def read_artists_from_txt(file_path):
@@ -40,7 +39,12 @@ def read_artists_from_txt(file_path):
         artists_list = [line.strip() for line in file.readlines()]
     return artists_list
 
+def extract_data():
+    artists_name = read_artists_from_txt("./data/artists_name.txt")
+    final_artists_information, final_albums_information, final_tracks_information, final_tracks_features_information = spotify_crawler(artists_name=artists_name[0], start_index=0, end_index=1)
+    return final_artists_information, final_albums_information, final_tracks_information, final_tracks_features_information
+
 if __name__ == "__main__":
     # Testing
-    artists_name = read_artists_from_txt("./data/artists_names.txt")
+    artists_name = read_artists_from_txt("./data/artists_name.txt")
     spotify_crawler(artists_name=artists_name[0], start_index=0, end_index=1)
