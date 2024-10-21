@@ -42,11 +42,15 @@ class PostgreSQL:
 
     def insert_many(self, data, table, columns):
         # Construct the SQL query to insert multiple rows
-        insert_query = sql.SQL("INSERT INTO {} ({}) VALUES ({})").format(
-            sql.Identifier(table),  # Table name
-            sql.SQL(', ').join(map(sql.Identifier, columns)),  # Column names
-            sql.SQL(', ').join(sql.Placeholder() for _ in columns)  # Placeholders for values
-        )
+        insert_query = sql.SQL("""
+        INSERT INTO {} ({}) VALUES ({}) 
+        ON CONFLICT (id) DO UPDATE SET {}
+                """).format(
+                            sql.Identifier(table),  # Table name
+                            sql.SQL(', ').join(map(sql.Identifier, columns)),  # Column names
+                            sql.SQL(', ').join(sql.Placeholder() for _ in columns),  # Placeholders for values
+                            sql.SQL(', ').join([sql.SQL("{} = EXCLUDED.{}").format(sql.Identifier(col), sql.Identifier(col)) for col in columns])
+                            )
 
         # Convert the data into a list of tuples for the placeholders
         # values = [tuple(row[column] for column in columns) for row in data]

@@ -41,10 +41,16 @@ def read_artists_from_txt(file_path):
 
 def extract_data():
     artists_name = read_artists_from_txt("./data/artists_name.txt")
-    final_artists_information, final_albums_information, final_tracks_information, final_tracks_features_information = spotify_crawler(artists_name=artists_name[0], start_index=0, end_index=1)
-    return final_artists_information, final_albums_information, final_tracks_information, final_tracks_features_information
+    final_artists_information,\
+        final_albums_information, \
+        final_tracks_information, \
+        final_tracks_features_information = spotify_crawler(artists_name=artists_name, start_index=0, end_index=20)
+    return final_artists_information, \
+            final_albums_information, \
+            final_tracks_information, \
+            final_tracks_features_information
 
 if __name__ == "__main__":
     # Testing
     artists_name = read_artists_from_txt("./data/artists_name.txt")
-    spotify_crawler(artists_name=artists_name[0], start_index=0, end_index=1)
+    spotify_crawler(artists_name=artists_name, start_index=0, end_index=1)

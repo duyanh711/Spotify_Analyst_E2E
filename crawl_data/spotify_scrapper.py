@@ -165,5 +165,4 @@ class SpotifyCrawler:
             final_tracks_features_information.extend(
                 tracks_features_information)
         print("Finish crawling")
-        print(final_artists_information)
         return final_artists_information, final_albums_information, final_tracks_information, final_tracks_features_information
