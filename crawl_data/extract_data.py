@@ -50,7 +50,24 @@ def extract_data():
             final_tracks_information, \
             final_tracks_features_information
 
+
+def save_to_csv(data, file_name):
+    """Saves the data to a CSV file"""
+    df = pd.DataFrame(data)
+    df.to_csv(file_name, index=False, encoding='utf-8')
+    print(f"Data saved to {file_name}")
+
+
 if __name__ == "__main__":
     # Testing
     artists_name = read_artists_from_txt("./data/artists_name.txt")
-    spotify_crawler(artists_name=artists_name, start_index=0, end_index=1)
+    # spotify_crawler(artists_name=artists_name, start_index=0, end_index=1)
+    final_artists_information, \
+            final_albums_information, \
+            final_tracks_information, \
+            final_tracks_features_information = extract_data()
+    save_to_csv(final_artists_information, "final_artists_information.csv")
+    save_to_csv(final_albums_information, "final_albums_information.csv")
+    save_to_csv(final_tracks_information, "final_tracks_information.csv")
+    save_to_csv(final_tracks_features_information, "final_tracks_features_information.csv")
+    
