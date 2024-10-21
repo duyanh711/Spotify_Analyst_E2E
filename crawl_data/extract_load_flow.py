@@ -42,7 +42,7 @@ def main():
         "external_urls VARCHAR(255)",
         "label VARCHAR(255)",
         "popularity INT",
-        "release_date DATE",
+        "release_date VARCHAR(255)",
         "release_date_precision VARCHAR(255)",
         "total_tracks INT"
     ]

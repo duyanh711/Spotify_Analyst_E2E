@@ -70,7 +70,7 @@ class PostgreSQL:
                         value_tuple.append(None)  # or handle missing keys accordingly
                 else:
                     value_tuple.append(value)
-        values.append(tuple(value_tuple))
+            values.append(tuple(value_tuple))
 
         # Execute the query and pass the values
         self.cursor.executemany(insert_query, values)
