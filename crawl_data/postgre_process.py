@@ -86,6 +86,29 @@ class PostgreSQL:
         self.cursor.execute(insert_query, data)
         self.conn.commit()
 
+    def insert_with_existing_fk_ids(self, fk_table_name, table_name, fk_col, data, columns):
+        fk_ids = [row[f'{fk_col}'] for row in data]
+        existing_fk_ids = self.get_existing_artist_ids_from_db(fk_table_name, fk_ids)
+        valid_data = [record for record in data if record[f'{fk_col}'] in existing_fk_ids]
+
+        if valid_data:
+            try:
+                self.insert_many(valid_data, table_name, columns)
+            except Exception as e:
+                print(f"Error inserting data into {table_name}: {str(e)}")
+                raise
+        else:
+            print(f"No valid data to insert for {table_name}. Ensure that {fk_col} exists in the table.")
+
+    def get_existing_artist_ids_from_db(self, table_name, fk_ids):
+        query = sql.SQL("SELECT id FROM {} WHERE id = ANY(%s)").format(
+            sql.Identifier(table_name)
+        )
+        self.cursor.execute(query, (fk_ids,))
+        result = self.cursor.fetchall()
+        return [row[0] for row in result]
+
+
     def close(self):
         """Đóng kết nối với database"""
         self.cursor.close()

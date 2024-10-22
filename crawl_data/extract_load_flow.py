@@ -90,8 +90,8 @@ def main():
     postgres_db.create_table('audio_features', cols_to_create_tracks_features)
     postgres_db.insert_many(final_artists_information, 'artists', cols_artists)
     postgres_db.insert_many(final_albums_information, 'albums', cols_albums)
-    postgres_db.insert_many(final_tracks_information, 'tracks', cols_tracks)
-    postgres_db.insert_many(final_tracks_features_information, 'audio_features', cols_tracks_features)
+    postgres_db.insert_with_existing_fk_ids('artists','tracks', 'artist_id', final_tracks_information, cols_tracks)
+    postgres_db.insert_with_existing_fk_ids('tracks', 'audio_features', 'id', final_tracks_features_information, cols_tracks_features)
 
     print("Data successfully loaded into PostgreSQL!")
 
