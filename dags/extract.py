@@ -4,7 +4,7 @@ import pandas as pd
 def extract_data_from_db(query, connection_params, output_path):
     try:
         conn = psycopg2.connect(**connection_params)
-        cursor = conn.cursor
+        cursor = conn.cursor()
         cursor.execute(query)
 
         cols_name = [desc[0] for desc in cursor.description]
@@ -17,4 +17,15 @@ def extract_data_from_db(query, connection_params, output_path):
         conn.close()
     except Exception as e:
         raise(e)
-    
+
+# Test
+if __name__ == "__main__":
+    query = "SELECT * FROM artists"
+    connection_params = {
+        'dbname': 'spotify',
+        'user': 'spotify',
+        'password': 'spotify',
+        'host': 'localhost',
+        'port': '5432'
+    }
+    extract_data_from_db(query, connection_params, "./data/artists.csv")
