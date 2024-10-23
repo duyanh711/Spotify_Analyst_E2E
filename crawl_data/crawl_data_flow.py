@@ -1,5 +1,5 @@
 from scrap_artists_name import ScrapArtistName
-from extract_data import extract_data
+from crawl_data.crawl_full_data import extract_data
 from spotify_api_auth import SpotifyAuth
 from spotify_scrapper import SpotifyCrawler
 from postgre_process import PostgreSQL
