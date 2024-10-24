@@ -44,7 +44,7 @@ def extract_data():
     final_artists_information,\
         final_albums_information, \
         final_tracks_information, \
-        final_tracks_features_information = spotify_crawler(artists_name=artists_name, start_index=100, end_index=200)
+        final_tracks_features_information = spotify_crawler(artists_name=artists_name, start_index=300, end_index=400)
     return final_artists_information, \
             final_albums_information, \
             final_tracks_information, \
