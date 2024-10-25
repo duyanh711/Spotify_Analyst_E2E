@@ -5,7 +5,7 @@ from spotify_scrapper import SpotifyCrawler
 from postgre_process import PostgreSQL
 
 
-def main():
+def scrape_data_core_flow():
     # Step 1: Scrape artist names and save to a file
     scrap = ScrapArtistName()
     scrap.artists_crawler()  # This will scrape and store artist names in the file
@@ -96,4 +96,4 @@ def main():
     print("Data successfully loaded into PostgreSQL!")
 
 if __name__ == "__main__":
-    main()
+    scrape_data_core_flow()
