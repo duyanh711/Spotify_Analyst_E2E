@@ -1,0 +1,29 @@
+[2024-10-26T14:36:18.852+0000] {processor.py:186} INFO - Started process (PID=114) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-10-26T14:36:18.859+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-10-26T14:36:18.894+0000] {logging_mixin.py:190} INFO - [2024-10-26T14:36:18.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-10-26T14:36:19.044+0000] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-10-26T14:36:21.548+0000] {logging_mixin.py:190} INFO - [2024-10-26T14:36:21.546+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:latest_only
+[2024-10-26T14:36:21.735+0000] {logging_mixin.py:190} INFO - [2024-10-26T14:36:21.734+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:latest_only
+[2024-10-26T14:36:21.833+0000] {logging_mixin.py:190} INFO - [2024-10-26T14:36:21.831+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:latest_only
+[2024-10-26T14:36:21.945+0000] {logging_mixin.py:190} INFO - [2024-10-26T14:36:21.942+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:latest_only
+[2024-10-26T14:36:22.063+0000] {logging_mixin.py:190} INFO - [2024-10-26T14:36:22.062+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:latest_only
+[2024-10-26T14:36:22.134+0000] {logging_mixin.py:190} INFO - [2024-10-26T14:36:22.133+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:latest_only
+[2024-10-26T14:36:22.199+0000] {logging_mixin.py:190} INFO - [2024-10-26T14:36:22.198+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:latest_only
+[2024-10-26T14:36:22.200+0000] {logging_mixin.py:190} INFO - [2024-10-26T14:36:22.200+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-26T14:36:22.272+0000] {logging_mixin.py:190} INFO - [2024-10-26T14:36:22.261+0000] {dag.py:3262} INFO - Creating ORM DAG for latest_only
+[2024-10-26T14:36:22.373+0000] {logging_mixin.py:190} INFO - [2024-10-26T14:36:22.351+0000] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-10-26 08:00:00+00:00, run_after=2024-10-26 12:00:00+00:00
+[2024-10-26T14:36:22.506+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 3.756 seconds
+[2024-10-26T14:41:06.806+0000] {processor.py:186} INFO - Started process (PID=91) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-10-26T14:41:06.828+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-10-26T14:41:06.850+0000] {logging_mixin.py:190} INFO - [2024-10-26T14:41:06.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-10-26T14:41:07.026+0000] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-10-26T14:41:07.493+0000] {logging_mixin.py:190} INFO - [2024-10-26T14:41:07.463+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-26T14:41:07.719+0000] {logging_mixin.py:190} INFO - [2024-10-26T14:41:07.719+0000] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-10-26 08:00:00+00:00, run_after=2024-10-26 12:00:00+00:00
+[2024-10-26T14:41:07.942+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 1.220 seconds
+[2024-10-26T14:42:47.711+0000] {processor.py:186} INFO - Started process (PID=166) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-10-26T14:42:47.752+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-10-26T14:42:47.881+0000] {logging_mixin.py:190} INFO - [2024-10-26T14:42:47.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-10-26T14:42:48.023+0000] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-10-26T14:42:48.903+0000] {logging_mixin.py:190} INFO - [2024-10-26T14:42:48.901+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-26T14:42:50.431+0000] {logging_mixin.py:190} INFO - [2024-10-26T14:42:50.430+0000] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-10-26 08:00:00+00:00, run_after=2024-10-26 12:00:00+00:00
+[2024-10-26T14:42:51.804+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 4.186 seconds
