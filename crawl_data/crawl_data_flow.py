@@ -1,8 +1,11 @@
-from scrap_artists_name import ScrapArtistName
-from crawl_full_data import extract_data
-from spotify_api_auth import SpotifyAuth
-from spotify_scrapper import SpotifyCrawler
-from postgre_process import PostgreSQL
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from crawl_data.scrap_artists_name import ScrapArtistName
+from crawl_data.crawl_full_data import extract_data
+from crawl_data.postgre_process import PostgreSQL
 
 
 def scrape_data_core_flow():

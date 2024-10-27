@@ -26,3 +26,533 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'crawl_data'
 [2024-10-26T14:42:22.908+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
 [2024-10-26T14:42:23.162+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.491 seconds
+[2024-10-26T15:18:42.596+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:18:42.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:18:42.642+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:18:42.641+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:18:42.761+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:18:42.744+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 4, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:18:42.765+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:18:42.893+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.355 seconds
+[2024-10-26T15:19:26.269+0000] {processor.py:186} INFO - Started process (PID=141) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:19:26.295+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:19:26.361+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:19:26.359+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:19:26.453+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:19:26.420+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 4, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:19:26.498+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:19:26.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.453 seconds
+[2024-10-26T15:19:58.240+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:19:58.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:19:58.265+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:19:58.265+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:19:58.321+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:19:58.307+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 4, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:19:58.324+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:19:58.437+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.273 seconds
+[2024-10-26T15:20:30.596+0000] {processor.py:186} INFO - Started process (PID=257) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:20:30.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:20:30.627+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:20:30.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:20:30.710+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:20:30.694+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 4, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:20:30.713+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:20:30.870+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.323 seconds
+[2024-10-26T15:21:01.780+0000] {processor.py:186} INFO - Started process (PID=320) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:21:01.782+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:21:01.788+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:21:01.787+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:21:01.833+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:21:01.824+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 4, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:21:01.836+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:21:01.891+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.128 seconds
+[2024-10-26T15:21:32.092+0000] {processor.py:186} INFO - Started process (PID=383) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:21:32.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:21:32.097+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:21:32.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:21:32.131+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:21:32.122+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 4, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:21:32.133+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:21:32.163+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.079 seconds
+[2024-10-26T15:26:43.440+0000] {processor.py:186} INFO - Started process (PID=58) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:26:43.454+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:26:43.470+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:26:43.470+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:26:43.505+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:26:43.499+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 4, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:26:43.507+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:26:43.576+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.167 seconds
+[2024-10-26T15:27:14.506+0000] {processor.py:186} INFO - Started process (PID=121) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:27:14.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:27:14.555+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:27:14.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:27:14.794+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:27:14.770+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 4, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:27:14.813+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:27:15.111+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.721 seconds
+[2024-10-26T15:27:45.938+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:27:45.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:27:45.941+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:27:45.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:27:45.958+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:27:45.955+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 4, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:27:45.960+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:27:45.978+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.045 seconds
+[2024-10-26T15:28:16.683+0000] {processor.py:186} INFO - Started process (PID=246) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:28:16.713+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:28:16.741+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:28:16.728+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:28:16.818+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:28:16.799+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 4, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:28:16.824+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:28:16.997+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.436 seconds
+[2024-10-26T15:28:47.580+0000] {processor.py:186} INFO - Started process (PID=310) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:28:47.581+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:28:47.584+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:28:47.583+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:28:47.606+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:28:47.601+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 4, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:28:47.608+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:28:47.640+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.067 seconds
+[2024-10-26T15:29:18.523+0000] {processor.py:186} INFO - Started process (PID=373) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:29:18.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:29:18.528+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:29:18.528+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:29:18.562+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:29:18.555+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 4, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:29:18.565+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:29:18.595+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.081 seconds
+[2024-10-26T15:29:49.745+0000] {processor.py:186} INFO - Started process (PID=434) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:29:49.748+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:29:49.756+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:29:49.754+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:29:49.805+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:29:49.790+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 4, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:29:49.811+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:29:49.885+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.161 seconds
+[2024-10-26T15:30:19.301+0000] {processor.py:186} INFO - Started process (PID=486) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:30:19.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:30:19.334+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:30:19.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:30:19.455+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:30:19.437+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 9, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+  File "/opt/airflow/crawl_data/crawl_data_flow.py", line 1, in <module>
+    from scrap_artists_name import ScrapArtistName
+ModuleNotFoundError: No module named 'scrap_artists_name'
+[2024-10-26T15:30:19.466+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:30:19.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.320 seconds
+[2024-10-26T15:30:50.068+0000] {processor.py:186} INFO - Started process (PID=549) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:30:50.069+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:30:50.075+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:30:50.074+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:30:50.114+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:30:50.105+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 9, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+  File "/opt/airflow/crawl_data/crawl_data_flow.py", line 1, in <module>
+    from scrap_artists_name import ScrapArtistName
+ModuleNotFoundError: No module named 'scrap_artists_name'
+[2024-10-26T15:30:50.120+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:30:50.152+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.091 seconds
+[2024-10-26T15:31:20.929+0000] {processor.py:186} INFO - Started process (PID=612) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:31:20.931+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:31:20.938+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:31:20.936+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:31:21.141+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:31:21.115+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 9, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+  File "/opt/airflow/crawl_data/crawl_data_flow.py", line 2, in <module>
+    from crawl_data.crawl_full_data import extract_data
+  File "/opt/airflow/crawl_data/crawl_full_data.py", line 1, in <module>
+    from spotify_api_auth import SpotifyAuth
+ModuleNotFoundError: No module named 'spotify_api_auth'
+[2024-10-26T15:31:21.146+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:31:21.198+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.286 seconds
+[2024-10-26T15:31:57.069+0000] {processor.py:186} INFO - Started process (PID=674) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:31:57.072+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:31:57.080+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:31:57.079+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:31:57.302+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:31:57.264+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 9, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+  File "/opt/airflow/crawl_data/crawl_data_flow.py", line 7, in <module>
+    from crawl_data.crawl_full_data import extract_data
+  File "/opt/airflow/crawl_data/crawl_full_data.py", line 1, in <module>
+    from spotify_api_auth import SpotifyAuth
+ModuleNotFoundError: No module named 'spotify_api_auth'
+[2024-10-26T15:31:57.318+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:31:57.377+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.326 seconds
+[2024-10-26T15:32:35.295+0000] {processor.py:186} INFO - Started process (PID=733) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:32:35.324+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:32:35.401+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:32:35.398+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:32:35.998+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:32:35.909+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 9, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+  File "/opt/airflow/crawl_data/crawl_data_flow.py", line 7, in <module>
+    from crawl_data.crawl_full_data import extract_data
+  File "/opt/airflow/crawl_data/crawl_full_data.py", line 1, in <module>
+    from spotify_api_auth import SpotifyAuth
+ModuleNotFoundError: No module named 'spotify_api_auth'
+[2024-10-26T15:32:36.015+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:32:36.550+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 1.460 seconds
+[2024-10-26T15:33:12.079+0000] {processor.py:186} INFO - Started process (PID=791) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:33:12.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:33:12.119+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:33:12.118+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:33:12.444+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:33:12.352+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 9, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+  File "/opt/airflow/crawl_data/crawl_data_flow.py", line 7, in <module>
+    from crawl_data.crawl_full_data import extract_data
+  File "/opt/airflow/crawl_data/crawl_full_data.py", line 1, in <module>
+    from spotify_api_auth import SpotifyAuth
+ModuleNotFoundError: No module named 'spotify_api_auth'
+[2024-10-26T15:33:12.463+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:33:12.750+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.713 seconds
+[2024-10-26T15:33:44.060+0000] {processor.py:186} INFO - Started process (PID=844) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:33:44.062+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:33:44.078+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:33:44.078+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:33:44.169+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:33:44.150+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 9, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+  File "/opt/airflow/crawl_data/crawl_data_flow.py", line 7, in <module>
+    from crawl_data.crawl_full_data import extract_data
+  File "/opt/airflow/crawl_data/crawl_full_data.py", line 1, in <module>
+    from spotify_api_auth import SpotifyAuth
+ModuleNotFoundError: No module named 'spotify_api_auth'
+[2024-10-26T15:33:44.173+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:33:44.272+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.288 seconds
+[2024-10-26T15:34:14.770+0000] {processor.py:186} INFO - Started process (PID=905) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:34:14.773+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:34:14.787+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:34:14.779+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:34:15.183+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:34:15.164+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 9, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+  File "/opt/airflow/crawl_data/crawl_data_flow.py", line 8, in <module>
+    from postgre_process import PostgreSQL
+ModuleNotFoundError: No module named 'postgre_process'
+[2024-10-26T15:34:15.186+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:34:15.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.539 seconds
+[2024-10-26T15:34:45.740+0000] {processor.py:186} INFO - Started process (PID=968) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:34:45.741+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:34:45.743+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:34:45.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:34:45.826+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:34:45.815+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 9, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+  File "/opt/airflow/crawl_data/crawl_data_flow.py", line 8, in <module>
+    from postgre_process import PostgreSQL
+ModuleNotFoundError: No module named 'postgre_process'
+[2024-10-26T15:34:45.829+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:34:45.851+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.118 seconds
+[2024-10-26T15:35:15.952+0000] {processor.py:186} INFO - Started process (PID=1031) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:35:15.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:35:15.966+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:35:15.965+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:35:16.421+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:35:16.396+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 11, in <module>
+    from dags.transform import transform
+  File "/opt/airflow/dags/transform.py", line 1, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-10-26T15:35:16.430+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:35:16.524+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.588 seconds
+[2024-10-26T15:35:50.204+0000] {processor.py:186} INFO - Started process (PID=1095) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:35:50.213+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:35:50.228+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:35:50.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:35:50.540+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:35:50.517+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 11, in <module>
+    from dags.transform import transform
+  File "/opt/airflow/dags/transform.py", line 1, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-10-26T15:35:50.549+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:35:50.682+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.510 seconds
+[2024-10-26T15:36:21.627+0000] {processor.py:186} INFO - Started process (PID=1158) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:36:21.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:36:21.631+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:36:21.631+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:36:21.756+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:36:21.749+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 11, in <module>
+    from dags.transform import transform
+  File "/opt/airflow/dags/transform.py", line 1, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-10-26T15:36:21.758+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:36:21.782+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.163 seconds
+[2024-10-26T15:36:54.183+0000] {processor.py:186} INFO - Started process (PID=1215) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:36:54.197+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:36:54.239+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:36:54.238+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:36:54.551+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:36:54.527+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 11, in <module>
+    from dags.transform import transform
+  File "/opt/airflow/dags/transform.py", line 1, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-10-26T15:36:54.555+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:36:54.653+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.526 seconds
+[2024-10-26T15:37:24.813+0000] {processor.py:186} INFO - Started process (PID=1276) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:37:24.815+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:37:24.818+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:37:24.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:37:24.935+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:37:24.929+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 11, in <module>
+    from dags.transform import transform
+  File "/opt/airflow/dags/transform.py", line 1, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-10-26T15:37:24.936+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:37:24.959+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.153 seconds
+[2024-10-26T15:37:55.224+0000] {processor.py:186} INFO - Started process (PID=1339) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:37:55.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:37:55.227+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:37:55.227+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:37:55.331+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:37:55.314+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 11, in <module>
+    from dags.transform import transform
+  File "/opt/airflow/dags/transform.py", line 1, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-10-26T15:37:55.334+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:37:55.357+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.140 seconds
+[2024-10-26T15:54:53.454+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:54:53.463+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:54:53.475+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:54:53.474+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:54:53.561+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:54:53.537+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 9, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:54:53.571+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:54:54.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.975 seconds
+[2024-10-26T15:56:38.217+0000] {processor.py:186} INFO - Started process (PID=330) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:56:38.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:56:38.230+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:56:38.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:56:38.280+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:56:38.266+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 9, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:56:38.282+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:56:38.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.168 seconds
+[2024-10-26T15:57:24.576+0000] {processor.py:186} INFO - Started process (PID=392) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:57:24.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:57:24.633+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:57:24.631+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:57:25.103+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:57:25.033+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 9, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:57:25.166+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:57:25.749+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 1.529 seconds
+[2024-10-26T15:57:56.681+0000] {processor.py:186} INFO - Started process (PID=420) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:57:56.684+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:57:56.718+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:57:56.717+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:57:56.796+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:57:56.784+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 9, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:57:56.799+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:57:56.917+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.297 seconds
+[2024-10-26T15:59:06.406+0000] {processor.py:186} INFO - Started process (PID=467) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:59:06.410+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T15:59:06.442+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:59:06.441+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:59:06.539+0000] {logging_mixin.py:190} INFO - [2024-10-26T15:59:06.518+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 9, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T15:59:06.551+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T15:59:06.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 0.447 seconds
+[2024-10-26T16:00:17.657+0000] {processor.py:186} INFO - Started process (PID=518) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T16:00:17.678+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T16:00:17.783+0000] {logging_mixin.py:190} INFO - [2024-10-26T16:00:17.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T16:00:18.404+0000] {logging_mixin.py:190} INFO - [2024-10-26T16:00:18.302+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 9, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T16:00:18.775+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T16:00:22.732+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 5.191 seconds
+[2024-10-26T16:05:23.414+0000] {processor.py:186} INFO - Started process (PID=91) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T16:05:23.600+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-10-26T16:05:23.955+0000] {logging_mixin.py:190} INFO - [2024-10-26T16:05:23.860+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T16:05:24.612+0000] {logging_mixin.py:190} INFO - [2024-10-26T16:05:24.353+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 9, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+ModuleNotFoundError: No module named 'crawl_data'
+[2024-10-26T16:05:24.921+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-10-26T16:05:26.845+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 4.390 seconds
