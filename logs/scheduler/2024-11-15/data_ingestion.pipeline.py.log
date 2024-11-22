@@ -1,0 +1,528 @@
+[2024-11-15T06:46:17.031+0000] {processor.py:186} INFO - Started process (PID=103) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:46:17.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T06:46:17.122+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:46:17.120+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:46:22.185+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:46:22.790+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:46:22.789+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T06:46:24.005+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:46:24.004+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T06:46:24.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 7.624 seconds
+[2024-11-15T06:47:28.884+0000] {processor.py:186} INFO - Started process (PID=171) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:47:28.888+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T06:47:28.902+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:47:28.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:47:30.464+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:47:30.687+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:47:30.686+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T06:47:31.203+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:47:31.202+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T06:47:31.702+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 2.895 seconds
+[2024-11-15T06:48:05.335+0000] {processor.py:186} INFO - Started process (PID=201) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:48:05.366+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T06:48:05.445+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:48:05.444+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:48:08.313+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:48:08.779+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:48:08.778+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T06:48:10.124+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:48:10.105+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T06:48:11.771+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 6.623 seconds
+[2024-11-15T06:49:11.426+0000] {processor.py:186} INFO - Started process (PID=249) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:49:11.499+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T06:49:11.545+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:49:11.535+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:49:17.428+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:49:17.864+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:49:17.863+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T06:49:18.643+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:49:18.642+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T06:49:19.205+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 7.994 seconds
+[2024-11-15T06:50:18.548+0000] {processor.py:186} INFO - Started process (PID=300) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:50:18.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T06:50:18.657+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:50:18.656+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:50:24.187+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:50:26.361+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:50:26.359+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T06:50:27.523+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:50:27.522+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T06:50:28.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 10.434 seconds
+[2024-11-15T06:51:12.732+0000] {processor.py:186} INFO - Started process (PID=343) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:51:12.743+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T06:51:12.755+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:51:12.754+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:51:15.658+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:51:15.942+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:51:15.941+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T06:51:16.326+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:51:16.322+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T06:51:16.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 4.292 seconds
+[2024-11-15T06:51:57.228+0000] {processor.py:186} INFO - Started process (PID=381) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:51:57.247+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T06:51:57.281+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:51:57.279+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:51:59.475+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:51:59.876+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:51:59.863+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T06:52:00.185+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:52:00.184+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T06:52:00.431+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 3.314 seconds
+[2024-11-15T06:52:40.363+0000] {processor.py:186} INFO - Started process (PID=424) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:52:40.367+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T06:52:40.394+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:52:40.374+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:52:41.296+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:52:41.481+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:52:41.480+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T06:52:41.876+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:52:41.875+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T06:52:42.036+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 1.706 seconds
+[2024-11-15T06:53:31.467+0000] {processor.py:186} INFO - Started process (PID=485) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:53:31.497+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T06:53:31.555+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:53:31.520+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:53:35.691+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:53:36.111+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:53:36.109+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T06:53:36.939+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:53:36.938+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T06:53:38.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 6.700 seconds
+[2024-11-15T06:54:20.139+0000] {processor.py:186} INFO - Started process (PID=519) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:54:20.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T06:54:20.192+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:54:20.180+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:54:22.935+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:54:23.254+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:54:23.251+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T06:54:23.794+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:54:23.793+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T06:54:24.007+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 3.957 seconds
+[2024-11-15T06:55:12.691+0000] {processor.py:186} INFO - Started process (PID=568) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:55:12.698+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T06:55:12.738+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:55:12.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:55:16.327+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:55:16.918+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:55:16.917+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T06:55:18.119+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:55:18.118+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T06:55:18.634+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 6.022 seconds
+[2024-11-15T06:57:44.376+0000] {processor.py:186} INFO - Started process (PID=632) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:57:44.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T06:57:44.417+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:57:44.415+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:58:13.762+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T06:58:14.425+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:58:14.423+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T06:58:15.434+0000] {logging_mixin.py:190} INFO - [2024-11-15T06:58:15.430+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T06:58:16.524+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 32.211 seconds
+[2024-11-15T07:02:03.299+0000] {processor.py:186} INFO - Started process (PID=726) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:02:03.312+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:02:03.357+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:02:03.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:02:12.910+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:02:13.563+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:02:13.561+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:02:15.030+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:02:14.932+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:02:17.276+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 14.035 seconds
+[2024-11-15T07:03:23.978+0000] {processor.py:186} INFO - Started process (PID=794) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:03:23.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:03:23.992+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:03:23.991+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:03:26.813+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:03:27.641+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:03:27.640+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:03:29.531+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:03:29.530+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:03:30.342+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 6.465 seconds
+[2024-11-15T07:04:52.527+0000] {processor.py:186} INFO - Started process (PID=850) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:04:52.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:04:52.553+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:04:52.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:05:27.539+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:05:27.420+0000] {timeout.py:68} ERROR - Process timed out, PID: 850
+[2024-11-15T07:05:29.583+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:05:27.755+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 11, in <module>
+    from dags.transform import transform
+  File "/opt/airflow/dags/transform.py", line 1, in <module>
+    from pyspark.sql import SparkSession
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/__init__.py", line 68, in <module>
+    from pyspark.profiler import Profiler, BasicProfiler
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/profiler.py", line 31, in <module>
+    import cProfile
+  File "/usr/local/lib/python3.12/cProfile.py", line 9, in <module>
+    import _lsprof
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/data_ingestion.pipeline.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 850
+[2024-11-15T07:05:29.602+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:05:35.863+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 43.812 seconds
+[2024-11-15T07:06:49.807+0000] {processor.py:186} INFO - Started process (PID=917) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:06:49.834+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:06:49.840+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:06:49.839+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:06:53.064+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:06:56.029+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:06:56.028+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:06:56.212+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:06:56.211+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:06:56.641+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 6.877 seconds
+[2024-11-15T07:07:29.067+0000] {processor.py:186} INFO - Started process (PID=954) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:07:29.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:07:29.206+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:07:29.204+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:07:45.393+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:07:46.566+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:07:46.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:07:50.058+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:07:50.057+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:07:50.730+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 22.175 seconds
+[2024-11-15T07:08:25.477+0000] {processor.py:186} INFO - Started process (PID=997) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:08:25.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:08:25.511+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:08:25.509+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:08:29.655+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:08:30.880+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:08:30.879+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:08:31.990+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:08:31.989+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:08:32.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 7.201 seconds
+[2024-11-15T07:09:58.977+0000] {processor.py:186} INFO - Started process (PID=1049) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:09:59.013+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:09:59.020+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:09:59.018+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:10:04.838+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:10:05.346+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:10:05.341+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:10:07.127+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:10:07.126+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:10:08.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 9.422 seconds
+[2024-11-15T07:11:11.655+0000] {processor.py:186} INFO - Started process (PID=1103) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:11:11.663+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:11:11.672+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:11:11.670+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:11:13.418+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:11:13.621+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:11:13.620+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:11:13.970+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:11:13.969+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:11:14.236+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 2.849 seconds
+[2024-11-15T07:12:11.570+0000] {processor.py:186} INFO - Started process (PID=1148) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:12:11.632+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:12:11.662+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:12:11.661+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:12:15.121+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:12:15.275+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:12:15.270+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:12:16.074+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:12:16.073+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:12:17.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 5.762 seconds
+[2024-11-15T07:13:20.190+0000] {processor.py:186} INFO - Started process (PID=1202) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:13:20.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:13:20.234+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:13:20.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:13:22.443+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:13:22.786+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:13:22.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:13:23.717+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:13:23.716+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:13:24.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 4.035 seconds
+[2024-11-15T07:14:57.426+0000] {processor.py:186} INFO - Started process (PID=1261) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:14:57.435+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:14:57.443+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:14:57.442+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:14:59.184+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:14:59.749+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:14:59.748+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:15:07.104+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:15:07.102+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:15:09.655+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 12.315 seconds
+[2024-11-15T07:15:59.637+0000] {processor.py:186} INFO - Started process (PID=1312) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:15:59.647+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:15:59.667+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:15:59.658+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:16:02.519+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:16:02.824+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:16:02.821+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:16:03.259+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:16:03.258+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:16:03.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 3.918 seconds
+[2024-11-15T07:17:02.281+0000] {processor.py:186} INFO - Started process (PID=1362) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:17:02.309+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:17:02.390+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:17:02.389+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:17:06.189+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:17:06.964+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:17:06.962+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:17:08.874+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:17:08.872+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:17:09.617+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 7.604 seconds
+[2024-11-15T07:18:24.104+0000] {processor.py:186} INFO - Started process (PID=1420) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:18:24.109+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:18:24.155+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:18:24.154+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:18:26.489+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:18:26.702+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:18:26.701+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:18:27.394+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:18:27.316+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:18:27.584+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 3.551 seconds
+[2024-11-15T07:18:59.357+0000] {processor.py:186} INFO - Started process (PID=1455) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:18:59.376+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:18:59.389+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:18:59.387+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:19:02.044+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:19:02.593+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:19:02.592+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:19:03.328+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:19:03.328+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:19:03.690+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 4.445 seconds
+[2024-11-15T07:20:08.403+0000] {processor.py:186} INFO - Started process (PID=1529) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:20:08.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:20:08.435+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:20:08.416+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:20:11.295+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:20:11.674+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:20:11.673+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:20:12.090+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:20:12.088+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:20:12.315+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 3.990 seconds
+[2024-11-15T07:21:06.536+0000] {processor.py:186} INFO - Started process (PID=1573) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:21:06.555+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:21:06.563+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:21:06.562+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:21:08.667+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:21:08.832+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:21:08.831+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:21:09.171+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:21:09.170+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:21:09.347+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 2.872 seconds
+[2024-11-15T07:22:01.747+0000] {processor.py:186} INFO - Started process (PID=1642) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:22:01.768+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:22:01.781+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:22:01.780+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:22:03.171+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:22:03.344+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:22:03.335+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:22:03.698+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:22:03.683+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:22:03.877+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 2.215 seconds
+[2024-11-15T07:22:57.246+0000] {processor.py:186} INFO - Started process (PID=1680) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:22:57.289+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:22:57.296+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:22:57.294+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:23:03.561+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:23:03.880+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:23:03.879+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:23:04.347+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:23:04.345+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:23:04.715+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 7.646 seconds
+[2024-11-15T07:23:49.389+0000] {processor.py:186} INFO - Started process (PID=1738) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:23:49.394+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:23:49.417+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:23:49.416+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:23:51.150+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:23:51.314+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:23:51.314+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:23:51.601+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:23:51.600+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:23:52.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 3.502 seconds
+[2024-11-15T07:27:26.561+0000] {processor.py:186} INFO - Started process (PID=1795) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:27:26.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:27:26.613+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:27:26.611+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:27:32.007+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:27:32.243+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:27:32.242+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:27:33.163+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:27:33.161+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:27:33.432+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 6.964 seconds
+[2024-11-15T07:28:10.805+0000] {processor.py:186} INFO - Started process (PID=1845) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:28:10.809+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:28:10.813+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:28:10.812+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:28:12.029+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:28:12.157+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:28:12.156+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:28:12.342+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:28:12.341+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:28:12.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 2.052 seconds
+[2024-11-15T07:29:30.298+0000] {processor.py:186} INFO - Started process (PID=1899) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:29:30.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:29:30.469+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:29:30.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:29:34.547+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:29:35.231+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:29:35.230+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:29:35.831+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:29:35.827+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:29:36.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 6.287 seconds
+[2024-11-15T07:30:13.733+0000] {processor.py:186} INFO - Started process (PID=1955) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:30:13.749+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:30:13.753+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:30:13.752+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:30:16.639+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:30:17.244+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:30:17.243+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:30:17.806+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:30:17.795+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:30:17.903+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 4.216 seconds
+[2024-11-15T07:31:53.575+0000] {processor.py:186} INFO - Started process (PID=1994) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:31:53.661+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:31:53.677+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:31:53.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:32:24.587+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:32:24.289+0000] {timeout.py:68} ERROR - Process timed out, PID: 1994
+[2024-11-15T07:32:25.214+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:32:24.791+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 11, in <module>
+    from dags.transform import transform
+  File "/opt/airflow/dags/transform.py", line 1, in <module>
+    from pyspark.sql import SparkSession
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/__init__.py", line 148, in <module>
+    from pyspark.sql import SQLContext, HiveContext, Row  # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/__init__.py", line 42, in <module>
+    from pyspark.sql.types import Row
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/types.py", line 52, in <module>
+    from pyspark.sql.utils import has_numpy, get_active_spark_context
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/utils.py", line 43, in <module>
+    from pyspark.errors.exceptions.captured import CapturedException  # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1124, in get_code
+  File "<frozen importlib._bootstrap_external>", line 753, in _compile_bytecode
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/data_ingestion.pipeline.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 1994
+[2024-11-15T07:32:25.303+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:32:26.487+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 33.305 seconds
+[2024-11-15T07:33:59.042+0000] {processor.py:186} INFO - Started process (PID=2068) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:33:59.057+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:33:59.114+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:33:59.102+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:34:01.342+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:34:03.046+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:34:03.045+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:34:03.434+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:34:03.396+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:34:03.640+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 4.826 seconds
+[2024-11-15T07:34:39.190+0000] {processor.py:186} INFO - Started process (PID=2112) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:34:39.194+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:34:39.218+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:34:39.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:34:40.425+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:34:40.580+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:34:40.580+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:34:41.029+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:34:41.027+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:34:41.316+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 2.195 seconds
+[2024-11-15T07:35:40.904+0000] {processor.py:186} INFO - Started process (PID=2180) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:35:40.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:35:40.914+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:35:40.912+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:35:45.608+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:35:46.277+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:35:46.275+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:35:46.976+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:35:46.974+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:35:47.333+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 6.543 seconds
+[2024-11-15T07:37:09.308+0000] {processor.py:186} INFO - Started process (PID=2228) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:37:09.313+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:37:09.319+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:37:09.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:37:12.997+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:37:13.419+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:37:13.385+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:37:14.583+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:37:14.582+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:37:15.078+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 5.845 seconds
+[2024-11-15T07:39:08.673+0000] {processor.py:186} INFO - Started process (PID=2286) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:39:08.720+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:39:08.762+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:39:08.745+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:39:33.841+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:39:34.232+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:39:34.230+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:39:34.983+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:39:34.982+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:39:35.351+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 27.052 seconds
+[2024-11-15T07:42:06.276+0000] {processor.py:186} INFO - Started process (PID=2361) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:42:06.311+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:42:06.316+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:42:06.314+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:42:09.928+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:42:10.505+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:42:10.503+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:42:11.678+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:42:11.677+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:43:46.721+0000] {processor.py:186} INFO - Started process (PID=2425) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:43:46.742+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:43:46.757+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:43:46.756+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:43:49.921+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:44:13.315+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:44:13.284+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:44:14.814+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:44:14.809+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:44:15.809+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 29.260 seconds
+[2024-11-15T07:45:02.988+0000] {processor.py:186} INFO - Started process (PID=2470) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:45:03.041+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:45:03.056+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:45:03.053+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:45:20.843+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:45:22.056+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:45:22.055+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:45:31.825+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:45:31.823+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:45:33.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 30.942 seconds
+[2024-11-15T07:47:44.724+0000] {processor.py:186} INFO - Started process (PID=2537) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:47:44.738+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:47:44.744+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:47:44.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:47:48.745+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:47:49.396+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:47:49.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:47:50.190+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:47:50.189+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:47:50.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 5.709 seconds
+[2024-11-15T07:49:04.767+0000] {processor.py:186} INFO - Started process (PID=2600) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:49:04.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:49:04.808+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:49:04.806+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:49:23.745+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:49:31.231+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:49:31.132+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:49:54.460+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:49:52.864+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:50:06.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 62.005 seconds
+[2024-11-15T07:53:36.099+0000] {processor.py:186} INFO - Started process (PID=2680) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:53:36.108+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:53:36.122+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:53:36.120+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:53:41.068+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:53:41.267+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:53:41.266+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:53:41.659+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:53:41.658+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:53:42.634+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 6.627 seconds
+[2024-11-15T07:55:58.405+0000] {processor.py:186} INFO - Started process (PID=2750) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:55:58.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:55:58.487+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:55:58.484+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:56:06.448+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:56:07.421+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:56:07.416+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T07:56:08.041+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:56:08.017+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T07:56:08.355+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 10.234 seconds
+[2024-11-15T07:59:54.349+0000] {processor.py:186} INFO - Started process (PID=2827) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T07:59:54.633+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T07:59:55.103+0000] {logging_mixin.py:190} INFO - [2024-11-15T07:59:54.957+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:00:26.764+0000] {logging_mixin.py:190} INFO - [2024-11-15T08:00:26.406+0000] {timeout.py:68} ERROR - Process timed out, PID: 2827
+[2024-11-15T08:00:32.487+0000] {logging_mixin.py:190} INFO - [2024-11-15T08:00:26.995+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_ingestion.pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion.pipeline.py", line 9, in <module>
+    from crawl_data.crawl_data_flow import scrape_data_core_flow
+  File "/opt/airflow/crawl_data/crawl_data_flow.py", line 8, in <module>
+    from crawl_data.postgre_process import PostgreSQL
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1322, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1262, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1528, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1502, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1634, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 161, in _path_isfile
+  File "<frozen importlib._bootstrap_external>", line 153, in _path_is_mode_type
+  File "<frozen importlib._bootstrap_external>", line 147, in _path_stat
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/data_ingestion.pipeline.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 2827
+[2024-11-15T08:00:33.549+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:11:08.176+0000] {processor.py:186} INFO - Started process (PID=2897) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:11:08.296+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T08:11:09.883+0000] {logging_mixin.py:190} INFO - [2024-11-15T08:11:09.381+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:11:55.146+0000] {logging_mixin.py:190} INFO - [2024-11-15T08:11:52.947+0000] {timeout.py:68} ERROR - Process timed out, PID: 2897
+[2024-11-15T08:18:47.230+0000] {processor.py:186} INFO - Started process (PID=2988) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:18:47.235+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T08:18:47.250+0000] {logging_mixin.py:190} INFO - [2024-11-15T08:18:47.248+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:18:57.252+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:19:33.964+0000] {logging_mixin.py:190} INFO - [2024-11-15T08:19:33.962+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T08:19:34.272+0000] {logging_mixin.py:190} INFO - [2024-11-15T08:19:34.271+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T08:19:34.737+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 47.680 seconds
+[2024-11-15T08:22:47.871+0000] {processor.py:186} INFO - Started process (PID=3070) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:22:47.963+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T08:22:48.183+0000] {logging_mixin.py:190} INFO - [2024-11-15T08:22:48.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:28:45.441+0000] {processor.py:186} INFO - Started process (PID=3177) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:28:45.445+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T08:28:45.450+0000] {logging_mixin.py:190} INFO - [2024-11-15T08:28:45.449+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:29:23.554+0000] {logging_mixin.py:190} INFO - [2024-11-15T08:29:23.509+0000] {timeout.py:68} ERROR - Process timed out, PID: 3177
+[2024-11-15T08:29:23.556+0000] {logging_mixin.py:190} WARNING - Exception ignored in: <function WeakKeyDictionary.__init__.<locals>.remove at 0x7f9065f3af20>
+[2024-11-15T08:29:23.558+0000] {logging_mixin.py:190} WARNING - Traceback (most recent call last):
+[2024-11-15T08:29:23.559+0000] {logging_mixin.py:190} WARNING -   File "/usr/local/lib/python3.12/weakref.py", line 369, in remove
+[2024-11-15T08:29:23.565+0000] {logging_mixin.py:190} WARNING -     def remove(k, selfref=ref(self)):
+[2024-11-15T08:29:23.570+0000] {logging_mixin.py:190} WARNING -   File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+[2024-11-15T08:29:23.639+0000] {logging_mixin.py:190} WARNING -     raise AirflowTaskTimeout(self.error_message)
+[2024-11-15T08:29:23.644+0000] {logging_mixin.py:190} WARNING - airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/data_ingestion.pipeline.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 3177
+[2024-11-15T08:29:23.844+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:29:27.783+0000] {logging_mixin.py:190} INFO - [2024-11-15T08:29:27.782+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T08:29:28.314+0000] {logging_mixin.py:190} INFO - [2024-11-15T08:29:28.313+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T08:29:28.577+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 43.245 seconds
+[2024-11-15T08:32:44.321+0000] {processor.py:186} INFO - Started process (PID=3268) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:32:44.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T08:32:44.347+0000] {logging_mixin.py:190} INFO - [2024-11-15T08:32:44.345+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:33:20.320+0000] {logging_mixin.py:190} INFO - [2024-11-15T08:33:20.250+0000] {timeout.py:68} ERROR - Process timed out, PID: 3268
+[2024-11-15T08:33:20.498+0000] {logging_mixin.py:190} WARNING - Exception ignored in: <function WeakKeyDictionary.__init__.<locals>.remove at 0x7f9065f3af20>
+[2024-11-15T08:33:20.507+0000] {logging_mixin.py:190} WARNING - Traceback (most recent call last):
+[2024-11-15T08:33:20.536+0000] {logging_mixin.py:190} WARNING -   File "/usr/local/lib/python3.12/weakref.py", line 369, in remove
+[2024-11-15T08:33:20.793+0000] {logging_mixin.py:190} WARNING -     def remove(k, selfref=ref(self)):
+[2024-11-15T08:33:20.796+0000] {logging_mixin.py:190} WARNING -   File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+[2024-11-15T08:33:20.809+0000] {logging_mixin.py:190} WARNING -     raise AirflowTaskTimeout(self.error_message)
+[2024-11-15T08:33:20.834+0000] {logging_mixin.py:190} WARNING - airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/data_ingestion.pipeline.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.10.2/best-practices.html#reducing-dag-complexity, PID: 3268
+[2024-11-15T08:33:22.405+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:43:24.881+0000] {processor.py:186} INFO - Started process (PID=3349) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:43:25.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T08:43:25.503+0000] {logging_mixin.py:190} INFO - [2024-11-15T08:43:25.288+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:50:47.964+0000] {processor.py:186} INFO - Started process (PID=3457) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:50:47.979+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T08:50:48.001+0000] {logging_mixin.py:190} INFO - [2024-11-15T08:50:47.985+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T08:51:36.674+0000] {logging_mixin.py:190} INFO - [2024-11-15T08:51:36.673+0000] {timeout.py:68} ERROR - Process timed out, PID: 3457
+[2024-11-15T08:51:37.447+0000] {logging_mixin.py:190} WARNING - Exception ignored in: <function WeakKeyDictionary.__init__.<locals>.remove at 0x7f9065f3af20>
+[2024-11-15T09:24:02.397+0000] {processor.py:186} INFO - Started process (PID=228) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:24:02.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T09:24:02.477+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:24:02.476+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:24:13.710+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:24:21.097+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:24:21.096+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T09:24:22.767+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:24:22.766+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T09:24:23.468+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 21.158 seconds
+[2024-11-15T09:30:18.912+0000] {processor.py:186} INFO - Started process (PID=353) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:30:18.930+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T09:30:18.956+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:30:18.955+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:30:26.186+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:30:26.748+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:30:26.746+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T09:30:27.430+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:30:27.429+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T09:30:27.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 8.951 seconds
+[2024-11-15T09:32:16.437+0000] {processor.py:186} INFO - Started process (PID=414) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:32:16.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T09:32:16.501+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:32:16.499+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:32:19.763+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:32:20.532+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:32:20.531+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T09:32:21.088+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:32:21.088+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T09:32:21.571+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 5.213 seconds
+[2024-11-15T09:36:01.487+0000] {processor.py:186} INFO - Started process (PID=490) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:36:01.721+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T09:36:01.989+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:36:01.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:36:24.642+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:36:24.846+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:36:24.845+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T09:36:26.059+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:36:26.059+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T09:36:26.186+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 25.380 seconds
+[2024-11-15T09:40:31.971+0000] {processor.py:186} INFO - Started process (PID=557) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:40:31.976+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T09:40:32.116+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:40:32.112+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:40:37.293+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:40:37.877+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:40:37.876+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T09:40:38.205+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:40:38.204+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T09:40:38.399+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 6.597 seconds
+[2024-11-15T09:43:13.855+0000] {processor.py:186} INFO - Started process (PID=644) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:43:13.876+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T09:43:13.895+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:43:13.891+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:43:22.250+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:43:22.444+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:43:22.443+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T09:43:22.777+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:43:22.777+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T09:43:23.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 9.990 seconds
+[2024-11-15T09:45:13.088+0000] {processor.py:186} INFO - Started process (PID=711) to work on /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:45:13.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion.pipeline.py for tasks to queue
+[2024-11-15T09:45:13.120+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:45:13.118+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:45:18.844+0000] {processor.py:925} INFO - DAG(s) 'spotify_data_ingestion_pipeline' retrieved from /opt/airflow/dags/data_ingestion.pipeline.py
+[2024-11-15T09:45:19.168+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:45:19.167+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-15T09:45:19.633+0000] {logging_mixin.py:190} INFO - [2024-11-15T09:45:19.632+0000] {dag.py:4180} INFO - Setting next_dagrun for spotify_data_ingestion_pipeline to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-15T09:45:20.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion.pipeline.py took 7.078 seconds

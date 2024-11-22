@@ -1,18 +1,16 @@
-from scrap_artists_name import ScrapArtistName
-from crawl_full_data import extract_data
-from spotify_api_auth import SpotifyAuth
-from spotify_scrapper import SpotifyCrawler
-from postgre_process import PostgreSQL
+from crawl_data.scrap_artists_name import ScrapArtistName
+from crawl_data.crawl_full_data import extract_data
+from crawl_data.postgre_process import PostgreSQL
 
 
-def scrape_data_core_flow():
-    # Step 1: Scrape artist names and save to a file
+def scrape_data_from_API():
     scrap = ScrapArtistName()
-    scrap.artists_crawler()  # This will scrape and store artist names in the file
+    scrap.artists_crawler() 
+
+def load_data_to_db():
     final_artists_information, final_albums_information, \
         final_tracks_information, final_tracks_features_information = \
         extract_data()
-    # Step 4: Load the data into PostgreSQL
     db_config = {
         'dbname': 'spotify',
         'user': 'spotify',
@@ -96,4 +94,5 @@ def scrape_data_core_flow():
     print("Data successfully loaded into PostgreSQL!")
 
 if __name__ == "__main__":
-    scrape_data_core_flow()
+    scrape_data_from_API()
+    load_data_to_db()

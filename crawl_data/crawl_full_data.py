@@ -1,5 +1,5 @@
-from spotify_api_auth import SpotifyAuth
-from spotify_scrapper import SpotifyCrawler
+from crawl_data.spotify_api_auth import SpotifyAuth
+from crawl_data.spotify_scrapper import SpotifyCrawler
 import os
 import pandas as pd
 from dotenv import load_dotenv
